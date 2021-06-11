@@ -21,7 +21,7 @@ const Header = ({ handleSearch }) => {
   return (
     <div className='fixed'>
       <div>
-        <img className='w-screen h-8' src={navBar} alt='navbar' />
+        <img className='w-screen h-20' src={navBar} alt='navbar' />
       </div>
       <div className='flex absolute top-0 p-2 items-center'>
         <img className='h-4 pl-5' src={back} alt='back-button' />
