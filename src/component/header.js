@@ -19,7 +19,7 @@ const Header = ({ handleSearch }) => {
   }, [title, error, clientData]);
 
   return (
-    <div className='fixed'>
+    <div className='fixed' style={{ zIndex: '999' }}>
       <div>
         <img className='w-screen h-20' src={navBar} alt='navbar' />
       </div>
